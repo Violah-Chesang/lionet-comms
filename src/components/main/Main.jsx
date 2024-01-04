@@ -4,7 +4,7 @@ import video from '../../../src/images/pexel-home.mp4'
 
 export default function Main() {
   return (
-    <div className='main'>
+    <div className='main' id='home'>
         <video className='back-video' autoPlay loop muted playsInline>
             <source src={video} type='video/mp4' />
         </video>
