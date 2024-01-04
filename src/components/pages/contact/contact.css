@@ -1,0 +1,125 @@
+.contact{
+    width: 100%;
+    height: auto;
+    background-image: url('../../../../src/images/contact.jpg');
+    background-size: cover;
+    z-index: 1;
+}
+.contact-cover{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.contact-heading{
+    width: 60%;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-row{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+.contact-col{
+    flex-basis: 33.333%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.contact-col-img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.contact-col-img:hover{
+    background-color: #204969;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.contact-col-title{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    padding-bottom: 20px;
+    display: flex;
+    color: #fff;
+}
+
+.contact-col-desc{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    font-size: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: aliceblue;
+}
+
+/* Add this style to make the iframe responsive */
+.contact-col-desc iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form{
+    width: 100%;
+    height: auto;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.25);
+    margin: auto;
+    color: #fff;
+    font-weight: 900;
+    font-size: 17px;
+    font-family: 'EB Garamond', serif;
+}
+
+.lionet-form{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    align-self: center;
+}
+
+.lionet-form input{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lionet-form textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.lionet-form button{
+    margin-bottom: 20px;
+    padding: 10px;
+    background:#204969;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.lionet-form button:hover{
+    margin-bottom: 20px;
+    padding: 10px;
+    background:#08FFC8;
+    color: #204969;
+    font-size: 17px;
+}
