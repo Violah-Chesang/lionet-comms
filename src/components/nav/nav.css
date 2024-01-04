@@ -52,3 +52,7 @@ ul li a{
     display: block;
     line-height: 100px;
 }
+
+ul li a:hover{
+    color: #08FFc8;
+}
