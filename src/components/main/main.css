@@ -53,7 +53,6 @@
     background-color: #204969;
     float: right;
     padding: 150px 30px 30px 30px;
-    /* position: absolute; */
     transform-origin: top;
     transform: skewX(25deg);
 }
@@ -72,6 +71,21 @@
     color: #fff;
     font-family: 'EB Garamond', serif;
     text-align: center;
+    animation-name: animate-welcome;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes animate-welcome {
+    from{
+        transform: translateX(250px);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
 
 .welcome-sub{
