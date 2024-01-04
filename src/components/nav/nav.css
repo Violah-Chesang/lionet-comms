@@ -44,11 +44,22 @@ ul li{
  padding-left: 40px;
 }
 
-ul li a{
+a{
     text-decoration: none;
     color: #204969;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     display: block;
     line-height: 100px;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+a:hover{
+    color: #08FFc8;
+}
+
+a.active{
+    color:salmon;
+    font-weight: 900;
 }
