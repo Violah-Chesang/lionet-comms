@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.services{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(30deg,rgb(28, 37, 122), rgb(0, 0, 14) , rgb(4, 4, 26)30%, rgb(28, 37, 122) 70%, rgb(0, 0, 14), rgb(0, 0, 14));
+    padding-top: 140px;
+}
+
+.services-cover{
+    width: 80%;
+    height: 90%;
+    background: rgb(3, 3, 61);
+    margin: auto;
+}
+
+.service-title{
+    color: #EC255A;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-col{
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    flex: 47%;
+    align-self: flex-start;
+}
+
+.header-col:first-child{
+    /* background-color: aquamarine; */
+    align-self: normal;
+    /* border: solid 2px rgb(6, 6, 37); */
+    box-shadow: 20px 20px 20px rgb(6, 6, 37);
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px rgb(6, 6, 37);
+}
+
+.header-col-content{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    /* background-color: rgb(144, 167, 90); */
+}
+.services-content-header{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+.header-col p{
+    color: #fff;
+    padding-top: 20px;
+}
+
+.header-col-img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* rows */
+
+.rows{
+    margin-top: 50px;
+}
+
+.row-title{
+    color: #EC255A;
+    text-align: center;
+}
+
+.services-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services-col{
+    flex: 33.33%;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    background-color: rgb(3, 3, 61);
+    align-self: flex-start;
+    box-shadow: 10px 10px 10px rgb(6, 6, 37);
+}
+
+.services-col:hover{
+    background-color: rgb(6, 6, 37);
+}
+
+.services-col-title h2{
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.services-col-desc{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.service-btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.service-btn:hover{
+    background-color: #EC255A;
+    color: #fff;
+}
