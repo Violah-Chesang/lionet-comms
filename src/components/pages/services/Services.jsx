@@ -1,8 +1,10 @@
 import React from 'react';
 import './services.css';
 import support from '../../../../src/images/lionet-support.png';
+import {useNavigate} from 'react-router-dom';
 
 export default function Services() {
+  let navigate = useNavigate();
   return (
     <div className='services' id='services'>
       <div className='services-cover'>
@@ -39,7 +41,7 @@ export default function Services() {
               <div className='services-col-desc'>
                 <p>We Provide Fiber Optic Construction Services To Telecom Operators. We Have Built Over 1000km Of Both Overhead And Underground Cables.</p>
               </div>
-              <button className='service-btn'>Read more</button>
+              <button className='service-btn' onClick={() => navigate('fibre')}>Read more</button>
             </div>
 
             <div className='services-col'>
