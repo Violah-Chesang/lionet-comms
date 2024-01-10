@@ -1,7 +1,7 @@
 import React from "react";
-import "./fibre.css";
+import "./servicesSinglePage.css";
 import { useNavigate } from "react-router-dom";
-import support from "../../../../../src/images/suppot.jpeg";
+
 
 export default function Fibre() {
   const navigate = useNavigate();
@@ -19,12 +19,13 @@ export default function Fibre() {
                   Operators. We Have Built Over 1000km Of Both Overhead And
                   Underground Cables.
                 </p>
-                <p></p>
+                <br />
                 <p>
                   We Offer A Wide Range Of High-Quality Fiber Optic Network
                   Installation And Support Ranging From Designing,
                   Implementation, And Support.
                 </p>
+                <br />
                 <p>
                   We Have Been Involved In Implementing Various Fibre Optic
                   Project Both Small And Large Scale. Contact Us For More
