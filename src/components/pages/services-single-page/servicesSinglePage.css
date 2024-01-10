@@ -1,0 +1,124 @@
+.fibre{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(30deg,rgb(28, 37, 122), rgb(0, 0, 14) , rgb(4, 4, 26)30%, rgb(28, 37, 122) 70%, rgb(0, 0, 14), rgb(0, 0, 14));
+    padding: 200px 0 100px 0;
+}
+
+.fibre-cover{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background-color : #fff;
+    padding: 30px 0 30px 0;
+}
+
+.fibre-content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(3, 3, 61);
+    box-shadow: 10px 10px 15px rgb(3, 3, 61);
+    background-image: url('../../../../src/images/suppot.jpeg');
+    background-position: right;
+    background-size: cover;
+}
+
+.fibre-content-cover{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(16, 9, 121, 0.4);
+}
+
+
+.fibre-main{
+    background: linear-gradient(to bottom right,rgb(3, 3, 61) 50%, rgba(0,0,0,0.1) 50%);
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50% 50% 50% 0; */
+    overflow: hidden;
+}
+.fibre-cover h1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.fibre-desc{
+    width: 50%;
+    color: #fff;
+    padding:  0 40px 10px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.back-btn{
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0 0 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 15%;
+    color: #EC255A;
+    cursor: pointer;
+}
+
+.back-btn:hover{
+    background-color: #EC255A;
+    color: #fff;
+}
+
+.internet-content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(3, 3, 61);
+    box-shadow: 10px 10px 15px rgb(3, 3, 61);
+    background-image: url('../../../../src/images/cabling.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+.CCTV-content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(3, 3, 61);
+    box-shadow: 10px 10px 15px rgb(3, 3, 61);
+    background-image: url('../../../../src/images/cctv.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+.support-content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(3, 3, 61);
+    box-shadow: 10px 10px 15px rgb(3, 3, 61);
+    background-image: url('../../../../src/images/customer-support.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+.cabling-content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(3, 3, 61);
+    box-shadow: 10px 10px 15px rgb(3, 3, 61);
+    background-image: url('../../../../src/images/structured-cabling.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+.cloud-content{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(3, 3, 61);
+    box-shadow: 10px 10px 15px rgb(3, 3, 61);
+    background-image: url('../../../../src/images/cloud.jpg');
+    background-position: right;
+    background-size: cover;
+}
+
+
+
+
