@@ -9,14 +9,14 @@ export default function Main() {
             <source src={video} type='video/mp4' />
         </video>
         {/* Welcome message */}
-        <div className='welcome-background'>
+        {/* <div className='welcome-background'>
 
-        </div>
+        </div> */}
         <div className='welcome'>
           <div className='welcome-content'>
-            <h1 className='welcome-title'>Welcome</h1>
+            <h1 className='welcome-title'>Welcome</h1> 
             <h3 className='welcome-sub'>Simple, Reliable, Solutions</h3>
-            <p className='welcome-message'>Your Trusted Partner In Service Provision</p>
+            <p className='welcome-message'>Your trusted partner in service provision</p>
           </div>
         </div>
     </div>
