@@ -65,7 +65,7 @@
 
 .welcome-content{
     width: 100%;
-    transform: skewX(-25deg);
+    /* transform: skewX(-25deg); */
     padding-left: 50%;
     padding-top: 15%;
 }
@@ -89,6 +89,15 @@
 @keyframes animate-welcome {
     from{
         transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes second-animate-welcome {
+    from{
+        transform: translateX(150px);
     }
     to{
         transform: translateX(0);
