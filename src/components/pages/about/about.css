@@ -2,15 +2,7 @@
 .about{
     width: 100%;
     height: auto;
-    background-color: #204968;
-    background-image: url('../../../../src/images/fibre.jpg');
-    background-size: cover;
-    z-index: 0;
-}
-.about-cover{
-    width: 100%;
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #fff;
 }
 
 .history{
@@ -18,35 +10,70 @@
     background-color: #fff;
     margin: auto;
     padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .about-title{
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     padding: 30px 0 20px 0;
-    margin-top: 20px;
-    color: #204968;
+    margin-top: 50px;
+    color: #fff;
+}
+.about-history{
+    width: 40%;
+    margin-top: 30px;
+    background-color: #03033D;
 }
 
-.about-image{
-    width: 60%;
-    height: 300px;
-    object-fit: cover;
-    margin-left: 200px;
+.about-history p{
+    width: 80%;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    margin: auto;
+    padding: 20px 15px;
+    background-color: #fff;
+    color: #000002;
+    margin: 10% 0 0 15%;
 }
+.about-image{
+    background-color: #EC255A;
+    position: absolute;
+    width: 50%;
+    height: 60%;
+   top: 30%;
+    margin-left: 30%;
+}
+
+.about-image img{
+    /* position: absolute; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin : auto;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.about-more{
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #fff;
+    margin-left: 10%;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #03033D;
+}
+
 .about-row{
     width: 80%;
     background-color: #fff;
     margin: auto;
     display: flex;
-}
-
-.about-history{
-    width: 50%;
-    font-family: 'EB Garamond', serif;
-    font-size: 18px;
-    margin: auto;
-    padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .about-col{
@@ -55,6 +82,11 @@
     width: 80%;
     border-radius: 5px;
     padding: 30px;
+    cursor: pointer;margin-top: 20px;
+}
+
+.about-col:hover{
+    background-color: #DADADA;
 }
 .about-col-img{
     width: 200px;
@@ -72,14 +104,86 @@
 }
 
 .about-col-details{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #23212b;
+    font-family: 'EB Garamond', serif;
+    color: #000;
     line-height: 20px;
     letter-spacing: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
     width: 90%;
     margin: auto;
+}
+
+@media(max-width:400px){
+    .history{
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    .about-history{
+        width: 100%;
+    }
+
+    .about-history p{
+        margin: auto;
+    }
+
+    .about-image{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        top: 0;
+    }
+
+    .about-more{
+        font-size: 28px;
+    }
+    .about-col{
+        flex-basis: 100%;
+    }
+
+    .about-col-details{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media(min-width:401px) and (max-width: 800px){
+    .history{
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    .about-history{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .about-history p{
+        margin: auto;
+    }
+
+    .about-image{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        top: 0;
+    }
+
+    .about-image img{
+        width: 80%;
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    .about-more{
+        font-size: 28px;
+    }
+    .about-col{
+        flex-basis: 100%;
+    }
+
+    .about-col-details{
+        width: 100%;
+        text-align: center;
+    }
 }
