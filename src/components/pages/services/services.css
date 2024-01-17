@@ -132,3 +132,49 @@
     color: #fff;
 }
 
+/* tablet */
+@media(min-width:401px) and (max-width:800px){
+    .services-content-header{
+        font-size: 25px;
+    }
+
+    .header-row{
+        flex-direction: column;
+    }
+    .header-col-content p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+
+    .header-row:last-child{
+        width: 80%;
+    }
+
+    .header-col-img{
+        width: 80%;
+    }
+
+    .services-row{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 400){
+    .header-col{
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .services-col{
+        flex-basis: 100%;
+    }
+    
+    .services-content-header{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .header-col-content{
+        margin: 100px;
+    }
+}
