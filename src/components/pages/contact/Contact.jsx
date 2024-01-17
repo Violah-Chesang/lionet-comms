@@ -47,6 +47,7 @@ export default function Contact() {
         <div className="contact-row">
           <div className="contact-form-col">
             <div className="lionet-form">
+            <h3>Write to us by filling the form below</h3>
               <label htmlFor="name">Name: </label>
               <br />
               <input
