@@ -11,7 +11,7 @@ export default function Fibre() {
         <div className="fibre-content">
           <div className="fibre-content-cover">
             <div className="fibre-main">
-              <h1>Fibre Optic Networks Installation And Support</h1>
+              <h1 className="fibre-head">Fibre Optic Networks Installation And Support</h1>
 
               <div className="fibre-desc">
                 <p>
