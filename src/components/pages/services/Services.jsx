@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css";
-import support from "../../../../src/images/lionet-support.png";
+import support from '../../../../src/images/lionet-support.png'
 import { useNavigate } from "react-router-dom";
 
 export default function Services() {
@@ -19,19 +19,15 @@ export default function Services() {
                 We pride ourselves on delivering cutting-edge solutions that
                 effectively meets your needs during this digital age.
               </p>
-            </div>
-          </div>
-
-          <div className="header-col">
-            <div className="header-col-content">
-              <div className="image-container">
-                <img className="header-col-img" src={support} alt="technian" />
                 <p>
                   Discover a new realm of connectivity and technology solutions
                   with Lionet Communications Ltd
                 </p>
-              </div>
             </div>
+          </div>
+
+          <div className="header-col">
+            <img src={support} alt="technician"/>
           </div>
         </div>
 
