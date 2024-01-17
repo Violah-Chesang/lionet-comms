@@ -59,14 +59,13 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 20px;
     
 }
 
 .contact-form-col{
     flex-basis: 50%;
     justify-content: center;
-    display:flex;
+    /* display:flex; */
     flex-direction: column;
     align-self: flex-start;
 }
@@ -76,9 +75,22 @@
 }
 
 .lionet-form{
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding: 30px;
+}
+
+.lionet-form h3{
+    padding-bottom: 20px;
+    color: #EC255A;
+}
+
+.lionet-form input{
+    width: 100%;
+}
+
+.lionet-form textarea{
+    width: 100%;
 }
 
 
@@ -93,6 +105,7 @@
 }
 
 .lionet-form button{
+    width: 50%;
     margin-bottom: 20px;
     padding: 10px;
     background: #EC255A;
@@ -121,8 +134,59 @@
 }
 
 @media(min-width: 401px) and (max-width:800px){
-    .contact{
-        background-color: red;
-        z-index: 999;
+    .contact-form-desc-cover{
+        width: 100%;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    .contact-details-info{
+        width: 80%;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    .contact-details-info:last-child p{
+        padding-left: 70px;
+    }
+
+    .contact-row{
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-flow: column-reverse;
+        justify-content: baseline; */
+    }
+
+    .contact-form-col{
+        width: 100%;
+    }
+    .contact-form-col:first-child{
+        border-radius: 5px;
+    }
+
+    .lionet-form{
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px){
+    .contact-form-desc-cover{
+        width: 100%;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    .contact-details-info{
+        width: 80%;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+
+    .contact-details-info:last-child p{
+        padding-left: 80px;
+    }
+    .contact-col-desc{
+        font-size: 14px;
+    }
+
+    .contact-row{
+        display: block;
     }
 }
