@@ -34,7 +34,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-
+      
         {/* Services row 1 */}
         <div className="rows">
           <div className="row-title">
